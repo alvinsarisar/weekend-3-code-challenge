@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    width: 80%;/* styles.css */
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+    }
+    
+    .container {
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    .left-panel {
+        width: 30%;
+        padding: 20px;
+        border-right: 1px solid #ddd;
+    }
+    
+    .right-panel {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    ul#films {
+        list-style-type: none;
+        padding: 0;
+    }
+    
+    ul#films li {
+        cursor: pointer;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        transition: background-color 0.3s ease;
+    }
+    
+    ul#films li:hover {
+        background-color: #f0f0f0;
+    }
+    
+    .movie-details {
+        text-align: center;
+    }
+    
+    .movie-details img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    
+    .movie-details h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .movie-details p {
+        margin-bottom: 8px;
+    }
+    
+    .buy-ticket {
+        padding: 10px 20px;
+        background-color: #4a7bb0;
+        color: #353030;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .buy-ticket:hover {
+        background-color: #0056b3;
+    }
+    
+    .sold-out {
+        color: #dc3545;
+        font-weight: bold;
+    }
+    
+    border: 1px solid #ccc;
+}
+
+#sidebar {
+    width: 30%;
+    border-right: 1px solid #ccc;
+}
+
+#films {
+    list-style-type: none;
+    padding: 0;
+}
+
+#films li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#films .sold-out {
+    text-decoration: line-through;
+    color: red;
+}
+
+#main {
+    width: 70%;
+    padding: 20px;
+}
+
+#movie-details {
+    text-align: center;
+}
+
+#poster {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
