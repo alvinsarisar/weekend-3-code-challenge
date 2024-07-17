@@ -30,9 +30,6 @@ There are other movie booking applications available, but this project focuses o
 
 **INSTALLATION**
 
-
-To get this project up and running locally, follow these steps:
-
  ** Requirements **
 - A web browser (e.g., Chrome, Firefox, Safari)
 - Node.js installed
