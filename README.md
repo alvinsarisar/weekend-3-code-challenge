@@ -1,6 +1,6 @@
 
 
-**#Flatiron Movie Theatre**
+**# Flatiron Movie Theatre**
 **##Description**
 Flatiron Movie Theatre is a web application that allows users to browse through a list of movies, view detailed information about each movie, and buy tickets. The project uses HTML, CSS, and JavaScript to create a dynamic and interactive user experience. The movie data is fetched from a local JSON file, making it easy to manage and update.
 
