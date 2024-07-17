@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         buyTicketButton.onclick = () => buyTicket(movie);
     }
 
-    // 4Function to display films list
+    // 4.Function to display films list
     function displayFilmsList(movies) {
         filmsList.innerHTML = ''; // Clear existing list items
         movies.forEach(movie => {
