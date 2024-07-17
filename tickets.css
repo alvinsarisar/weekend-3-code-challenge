@@ -53,9 +53,9 @@ body {
 
 /* 7.Styling for sold-out movies */
 #films .sold-out {
-    background-color: #f8d7da; /* Light red background for sold-out items */
-    color: #fd4f0b; /* Dark red text */
-    border-color: #524c4d; /* Light red border */
+    background-color: #f8d7da;
+    color: #fd4f0b; 
+    border-color: #524c4d; 
 }
 
 /* 8.Styling for the movie details section */
@@ -65,18 +65,18 @@ body {
 }
 /* 9.Styling for the movie poster */
 #poster {
-    max-width: 100%; /* Ensure poster fits within the container */
-    border: 1px solid #ccc; /* Light border for the poster */
-    border-radius: 5px; /* Rounded corners */
-    margin-bottom: 20px; /* Space below the poster */
+    max-width: 100%; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 /* 10.Styling for the movie title */
 #title {
-    font-size: 24px; /* Larger font size for the title */
-    margin-bottom: 10px; /* Space below the title */
-    color: #333; /* Darker text color */
+    font-size: 24px; 
+    margin-bottom: 10px; 
+    color: #333; 
 }
 
 /*11. Styling for the movie description */
