@@ -1,5 +1,4 @@
 
-Sure, here's a detailed README for the weekend challenge project based on the suggestions provided:
 
 Flatiron Movie Theatre
 Description
