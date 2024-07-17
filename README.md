@@ -1,10 +1,10 @@
 
 
-**# FLATIRON MOVIE THEATRE **
+**#H1FLATIRON MOVIE THEATRE**
 
 
 
-** DESCRIPTION**
+**DESCRIPTION**
 
 
 Flatiron Movie Theatre is a web application that allows users to 
