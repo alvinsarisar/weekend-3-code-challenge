@@ -22,12 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3.Function to display movie details
     function displayMovieDetails(movie) {
-        poster.src = movie.poster; // Set movie poster
-        title.textContent = movie.title; // Set movie title
-        description.textContent = movie.description; // Set movie description
-        runtime.textContent = movie.runtime; // Set movie runtime
-        showtime.textContent = movie.showtime; // Set movie showtime
-        availableTickets.textContent = movie.capacity - movie.tickets_sold; // Calculate and set available tickets
+        poster.src = movie.poster; 
+        title.textContent = movie.title; 
+        description.textContent = movie.description; 
+        runtime.textContent = movie.runtime; 
+        showtime.textContent = movie.showtime; 
+        availableTickets.textContent = movie.capacity - movie.tickets_sold; 
 
         // Adding  click event to Buy Ticket button
         buyTicketButton.onclick = () => buyTicket(movie);
