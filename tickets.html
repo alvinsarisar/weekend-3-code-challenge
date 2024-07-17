@@ -2,29 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flatdango</title>
-    <link rel="stylesheet" href="tickets.css">
+    <meta name="viewport" content="tickets, Flatiron Movie Theatre">
+    <title>FLATIRON MOVIE THEATRE</title> <!-- website title-->
+    <link rel="stylesheet" href="tickets.css"> <!-- Link to CSS file -->
 </head>
 <body>
+    <h1 id="page-title">FLATIRON MOVIE THEATRE</h1> <!-- Page title -->
     <div id="container">
-        <div id="sidebar">
-            <ul id="films">
-                <!-- Movie list will be populated here -->
-            </ul>
-        </div>
-        <div id="main">
-            <div id="movie-details">
-                <img id="poster" src="" alt="Movie Poster">
-                <h1 id="title"></h1>
-                <p id="description"></p>
-                <p><strong>Runtime:</strong> <span id="runtime"></span> mins</p>
-                <p><strong>Showtime:</strong> <span id="showtime"></span></p>
-                <p><strong>Available Tickets:</strong> <span id="available-tickets"></span></p>
-                <button id="buy-ticket">Buy Ticket</button>
-            </div>
+        <!-- 1.Movie list container -->
+        <ul id="films">
+            <!-- 2.Movie list will be populated here -->
+        </ul>
+        <!-- 3.Movie details container -->
+        <div id="movie-details">
+            <img id="poster" src="" alt="Movie Poster"> 
+            <h2 id="title"></h2> 
+            <p id="description"></p> 
+            <p><strong>Runtime:</strong> <span id="runtime"></span> minutes</p> 
+            <p><strong>Showtime:</strong> <span id="showtime"></span></p> 
+            <p><strong>Available Tickets:</strong> <span id="available-tickets"></span></p> 
+            <button id="buy-ticket">Buy Ticket</button> 
         </div>
     </div>
-    <script   src="tickets.js"></script>
+    <script src = "/tickets.js" >  
+    </script>  <!-- Link to js file -->
 </body>
 </html>

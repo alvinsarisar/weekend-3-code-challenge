@@ -1,144 +1,102 @@
+/* 1.General body styling */
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    font-family: Arial, sans-serif; /* Set the font for the entire page */
+    margin: 0; 
+    padding: 0; 
+    background-color: #959090; 
 }
 
+
+/* 2.Page title styling */
+#page-title {
+    text-align: center; 
+    font-size: 32px; 
+    margin: 20px 0; 
+    color: #262424; 
+}
+
+/* 3.Container styling */
 #container {
-    display: flex;
-    width: 80%;/* styles.css */
-
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        background-color: #f0f0f0;
-    }
-    
-    .container {
-        display: flex;
-        max-width: 1200px;
-        width: 100%;
-        margin: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        background-color: #fff;
-        border-radius: 8px;
-        overflow: hidden;
-    }
-    
-    .left-panel {
-        width: 30%;
-        padding: 20px;
-        border-right: 1px solid #ddd;
-    }
-    
-    .right-panel {
-        flex: 1;
-        padding: 20px;
-    }
-    
-    h1 {
-        font-size: 24px;
-        margin-bottom: 10px;
-    }
-    
-    ul#films {
-        list-style-type: none;
-        padding: 0;
-    }
-    
-    ul#films li {
-        cursor: pointer;
-        padding: 10px;
-        border-bottom: 1px solid #ddd;
-        transition: background-color 0.3s ease;
-    }
-    
-    ul#films li:hover {
-        background-color: #f0f0f0;
-    }
-    
-    .movie-details {
-        text-align: center;
-    }
-    
-    .movie-details img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        margin-bottom: 10px;
-    }
-    
-    .movie-details h2 {
-        font-size: 20px;
-        margin-bottom: 5px;
-    }
-    
-    .movie-details p {
-        margin-bottom: 8px;
-    }
-    
-    .buy-ticket {
-        padding: 10px 20px;
-        background-color: #4a7bb0;
-        color: #353030;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-    
-    .buy-ticket:hover {
-        background-color: #0056b3;
-    }
-    
-    .sold-out {
-        color: #dc3545;
-        font-weight: bold;
-    }
-    
-    border: 1px solid #ccc;
-}
-
-#sidebar {
-    width: 30%;
-    border-right: 1px solid #ccc;
-}
-
-#films {
-    list-style-type: none;
-    padding: 0;
-}
-
-#films li {
-    padding: 10px;
-    cursor: pointer;
-}
-
-#films .sold-out {
-    text-decoration: line-through;
-    color: red;
-}
-
-#main {
-    width: 70%;
+    display: flex; 
     padding: 20px;
+    max-width: 1200px; 
+    margin: auto; 
+    background-color: #beb7b7; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow - mapozi maridadi*/
+    border-radius: 10px; /* Rounded corners - mapozi pia */
 }
 
+/* 4.Styling for the movie list */
+#films {
+    width: 30%; 
+    list-style: none; 
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+/* 5.Styling for each movie list item */
+#films li {
+    padding: 10px; /* Add padding inside list items */
+    margin-bottom: 10px; /* Space between list items */
+    background-color: #e2e2e2; 
+    border: 1px solid #474545; 
+    border-radius: 5px;
+    cursor: pointer; /* Pointer cursor on hover- hii mapozi pia */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions - mapozi zaidi */
+}
+
+/* 6.Hovering effect for movie list items - hii mapozi kwelikweli */
+#films li:hover {
+    background-color: #c4b0b0; 
+    transform: scale(1.02); /* Slightly enlarge item on hover - mapozi main */
+}
+
+/* 7.Styling for sold-out movies */
+#films .sold-out {
+    background-color: #f8d7da; /* Light red background for sold-out items */
+    color: #fd4f0b; /* Dark red text */
+    border-color: #524c4d; /* Light red border */
+}
+
+/* 8.Styling for the movie details section */
 #movie-details {
-    text-align: center;
+    width: 70%; 
+    padding-left: 20px; 
+}
+/* 9.Styling for the movie poster */
+#poster {
+    max-width: 100%; /* Ensure poster fits within the container */
+    border: 1px solid #ccc; /* Light border for the poster */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the poster */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
-#poster {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
+/* 10.Styling for the movie title */
+#title {
+    font-size: 24px; /* Larger font size for the title */
+    margin-bottom: 10px; /* Space below the title */
+    color: #333; /* Darker text color */
 }
+
+/*11. Styling for the movie description */
+#description {
+    font-size: 16px; 
+    margin-bottom: 20px; 
+    color: #a07a7a; 
+}
+
+/* 12.Styling for movie runtime, showtime, and available tickets */
+#runtime, #showtime, #available-tickets {
+    font-size: 18px; 
+    margin-bottom: 10px; /* Space below each item */
+    color: #444; 
+}
+
+/* 13.Styling for the Buy Ticket button */
+#buy-ticket {
+    display: inline-block; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    color: #1cc825;
+ }
