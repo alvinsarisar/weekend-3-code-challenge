@@ -14,7 +14,7 @@ Flatiron Movie Theatre is a web application that allows users to
  The project uses HTML, CSS, and JavaScript to create an interactive user experience.
 
 
-**## FEATURES**
+**FEATURES**
 
 1. View a list of available movies.
 2. Display detailed information about a selected movie, including the poster, title, runtime, showtime, and available tickets.
@@ -22,13 +22,13 @@ Flatiron Movie Theatre is a web application that allows users to
 Background
 
 
-** ALTERNATIVES **
+**ALTERNATIVES**
 
 There are other movie booking applications available, but this project focuses on simplicity and learning. It serves as a foundational project for understanding basic web development concepts.
 
 
 
-** INSTALLATION **
+**INSTALLATION**
 
 
 To get this project up and running locally, follow these steps:
@@ -55,7 +55,7 @@ Special thanks to Mercy Nzau our TM for her  guidance and support.
 
 
 
-** PROJECT STATUS **
+**PROJECT STATUS**
 
 
 As of now, the Flatiron Movie Theatre project is actively maintained. We welcome new contributors to help improve and expand the project.
